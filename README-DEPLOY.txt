@@ -1,5 +1,5 @@
 ﻿원도심 빵지순례 – 인터넷에 올리기 (외부 접속)
-(v3.7)
+(v3.8)
 
 이 폴더를 그대로 무료 정적 호스팅에 올리면 친구나 휴대폰(데이터)에서도 접속할 수 있어요.
 
@@ -20,12 +20,12 @@
    - 이 키는 누구나 볼 수 있지만 등록한 주소에서만 동작해요.
 
 4) 주소 나누기
-   - 브이월드 만화 모드: https://이름.netlify.app/vworld-v3.7.html
-   - 브이월드 실사 모드: https://이름.netlify.app/vworld-real-v3.7.html
-   - 기본 버전(키 없이 됨): https://이름.netlify.app/ (또는 /index-v3.7.html — 같은 페이지)
+   - 브이월드 만화 모드: https://이름.netlify.app/vworld-v3.8.html
+   - 브이월드 실사 모드: https://이름.netlify.app/vworld-real-v3.8.html
+   - 기본 버전(키 없이 됨): https://이름.netlify.app/ (또는 /index-v3.8.html — 같은 페이지)
 
 ★ 인증키 없이 브이월드 건물로 보여 주기 (2·3번 대신)
-   - 키가 있는 PC에서 vworld-v3.7.html 을 열고, 건물이 다 뜨면 🛰️ 브이월드 > 📦 건물 파일로 저장 을 눌러요.
+   - 키가 있는 PC에서 vworld-v3.8.html 을 열고, 건물이 다 뜨면 🛰️ 브이월드 > 📦 건물 파일로 저장 을 눌러요.
    - 받은 vworld-buildings.json 을 이 폴더(index.html 옆)에 넣고 같이 올려요.
    - 그러면 기본 주소(https://이름.netlify.app/ 또는 GitHub Pages 주소)가 키 없이 브이월드 건물로 열려요.
    - 공개 전에 브이월드 이용약관에서 받은 데이터를 다른 사이트에 다시 올려도 되는지(재배포 조건) 확인하세요.
