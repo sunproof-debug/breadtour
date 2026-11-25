@@ -1,5 +1,5 @@
 ﻿원도심 빵지순례 – 인터넷에 올리기 (외부 접속)
-(v4.6)
+(v4.8)
 
 이 폴더를 그대로 무료 정적 호스팅에 올리면 친구나 휴대폰(데이터)에서도 접속할 수 있어요.
 
@@ -20,17 +20,23 @@
    - 이 키는 누구나 볼 수 있지만 등록한 주소에서만 동작해요.
 
 4) 주소 나누기
-   - 브이월드 만화 모드: https://이름.netlify.app/vworld-v4.6.html
-   - 브이월드 실사 모드: https://이름.netlify.app/vworld-real-v4.6.html
-   - 기본 버전(키 없이 됨): https://이름.netlify.app/ (또는 /index-v4.6.html — 같은 페이지)
+   - 브이월드 만화 모드: https://이름.netlify.app/vworld-v4.8.html
+   - 브이월드 실사 모드: https://이름.netlify.app/vworld-real-v4.8.html
+   - 기본 버전(키 없이 됨): https://이름.netlify.app/ (또는 /index-v4.8.html — 같은 페이지)
 
 ★ 인증키 없이 브이월드 건물로 보여 주기 (2·3번 대신)
-   - 키가 있는 PC에서 vworld-v4.6.html 을 열고, 건물이 다 뜨면 🛰️ 브이월드 > 📦 건물 파일로 저장 을 눌러요.
+   - 키가 있는 PC에서 vworld-v4.8.html 을 열고, 건물이 다 뜨면 🛰️ 브이월드 > 📦 건물 파일로 저장 을 눌러요.
    - 받은 vworld-buildings.json 을 이 폴더(index.html 옆)에 넣고 같이 올려요.
    - 그러면 기본 주소(https://이름.netlify.app/ 또는 GitHub Pages 주소)가 키 없이 브이월드 건물로 열려요.
    - 공개 전에 브이월드 이용약관에서 받은 데이터를 다른 사이트에 다시 올려도 되는지(재배포 조건) 확인하세요.
 
-새 버전으로 바꿀 때는 새 압축파일의 HTML 파일들을 이 폴더에 넣고(index.html 은 덮어쓰기, vworld-config.js 는 그대로) 다시 끌어다 놓아요.
+☁️ 카카오·네이버 로그인으로 기록 저장 (선택)
+   - 로그인 서버(bread-login-server-v버전.zip, Cloudflare Workers)를 먼저 올려요. 방법은 그 압축파일 안 README-LOGIN.txt 에 있어요.
+   - 이 폴더의 login-config.js 를 메모장으로 열어 window.BREAD_LOGIN = { server: '' }; 의 따옴표 안에 로그인 서버 주소를 넣고 다시 올려요.
+   - login-config.js 에는 서버 주소만 넣어요. 카카오·네이버의 client secret 같은 비밀 값은 절대 넣지 마세요(누구나 볼 수 있어요).
+   - 비워 두면 로그인 버튼이 흐리게 보이고, 기록은 지금처럼 각자의 브라우저에만 저장돼요.
+
+새 버전으로 바꿀 때는 새 압축파일의 HTML 파일들을 이 폴더에 넣고(index.html 은 덮어쓰기, vworld-config.js·login-config.js 는 그대로) 다시 끌어다 놓아요.
 (예전 버전 이름의 HTML 파일이 남아 있으면 지워도 돼요.)
 이번 버전은 지도 범위를 '원도심 빵지순례 구역'으로 줄여서, 브이월드 모드를 처음 열 때 건물 데이터를 한 번 더 받아요.
 인터넷에 올리면 누구나 볼 수 있어요. 퀸비 사진 속 본인, 세웅이형 등 등장인물·업체의 동의를 먼저 받으세요.
