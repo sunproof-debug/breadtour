@@ -7,4 +7,4 @@
 //
 // ⚠️ 이 파일에는 서버 주소만 넣으세요. 카카오·네이버의 client secret 같은 비밀 값은 절대 넣지 마세요(누구나 볼 수 있어요).
 //    비밀 값은 로그인 서버에만 둡니다(README의 '☁️ 카카오·네이버 로그인 서버').
-window.BREAD_LOGIN = { server: '' };
+window.BREAD_LOGIN = { server: 'https://bread-login.sunproof.workers.dev' };
