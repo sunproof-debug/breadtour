@@ -23,6 +23,7 @@
    - 브이월드 만화 모드: https://이름.netlify.app/vworld-v5.0.html
    - 브이월드 실사 모드: https://이름.netlify.app/vworld-real-v5.0.html
    - 기본 버전(키 없이 됨): https://이름.netlify.app/ (또는 /index-v5.0.html — 같은 페이지)
+   - 🎨 가게 꾸미기(가게 사장님 전용): https://이름.netlify.app/owner.html — 로그인 서버가 있어야 써요(아래 ☁️, README의 '🎨 가게 꾸미기')
 
 ★ 인증키 없이 브이월드 건물로 보여 주기 (2·3번 대신)
    - 키가 있는 PC에서 vworld-v5.0.html 을 열고, 건물이 다 뜨면 🛰️ 브이월드 > 📦 건물 파일로 저장 을 눌러요.
